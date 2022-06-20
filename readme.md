@@ -1,3 +1,9 @@
+There are 6 experimental NN. Mask-RCNN, YOLOv3. Unet each for object and for point detections. In this project is also a app
+for comparation between this NN.      
+
+
+
+
 How to run this project
 
 1. You need to be on os windows 10 because of  https://visualstudio.microsoft.com/visual-cpp-build-tools/
@@ -18,3 +24,8 @@ conda env update --file pytorch_google_colab.yml --prune
 pip install -U albumentations
    
 8. In config_global.py change the abs path for RENDERS and ABS_PATH_OF_PROJECT
+
+
+![unet,yolo](imgs/unet,yolo.PNG)
+
+![Unet](imgs/annotations.PNG)
